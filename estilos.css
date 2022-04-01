@@ -1,39 +1,54 @@
-.navegador{
-height: 65px;
-width: 100%;
+.navegador {
+  height: 65px;
+  width: 100%;
 }
 
-.botonesDerechos{
-float: right;
+.navegador .botonesDerechos {
+  float: right;
 }
 
-.fondo{
-position: absolute;
-z-index: 1;
-border: white solid;
-border-radius: 20px;
-height: 400px;
-width: 100%;
-margin-top: 3px;
+.header {
+  width: 100%;
+  max-width: 1200px;
+  margin: 30px auto;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  overflow: hidden;
 }
 
-.perfil{
-position: relative;
-z-index: 2;
-margin-top: 300px;
-height: 200px;
-width: 200px;
-margin-left: 50px;
-border-radius: 100px;
+.header .fondo {
+  height: 400px;
+  width: 100%;
+  display: block;
 }
 
-.cuadroTexto{
-    border: grey solid 1px;
-    height: auto;
-    width: 99%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-    border-radius: 10px;
-    margin-top: 10px;
+.header .perfil {
+  position: relative;
+  z-index: 2;
+  margin-top: -100px;
+  height: 200px;
+  width: 200px;
+  margin-left: 30px;
+  border-radius: 100px;
+}
+
+.header .detalle {
+  padding: 30px;
+}
+
+.header .detalle .nombre {
+}
+
+.header .detalle .descripcion {
+}
+
+.cards-wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 30px auto;
+}
+
+.cards-wrapper .card {
+  margin-bottom: 30px;
+  border-radius: 30px;
 }
