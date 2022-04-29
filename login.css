@@ -1,0 +1,15 @@
+.navegador {
+  height: 65px;
+  width: 100%;
+}
+
+.navegador .botonesDerechos {
+  float: right;
+}
+
+.navegador .botonesDerechos .dropdown {
+  float: right;
+  height: 100%;
+  margin-left: 5px;
+  border-radius: 5px;
+}
