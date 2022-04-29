@@ -7,6 +7,13 @@
   float: right;
 }
 
+.navegador .botonesDerechos .dropdown {
+  float: right;
+  height: 100%;
+  margin-left: 5px;
+  border-radius: 5px;
+}
+
 .header {
   width: 100%;
   max-width: 1200px;
