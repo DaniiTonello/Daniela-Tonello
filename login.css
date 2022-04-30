@@ -30,6 +30,7 @@
   border-radius: 10px;
   font-family: "calibri";
   color: white;
+  box-shadow: 7px 13px 37px rgba(0, 0, 0, 0.74);
 }
 
 .formRegister h4 {
