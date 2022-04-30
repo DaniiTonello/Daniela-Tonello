@@ -1,6 +1,7 @@
 .navegador {
   height: 65px;
   width: 100%;
+  background-color: rgba(127, 255, 212, 0.671);
 }
 
 .navegador .botonesDerechos {
@@ -22,7 +23,7 @@
 
 .formRegister {
   width: 400px;
-  background-color: rgb(152, 222, 224);
+  background-color: rgba(127, 255, 212, 0.315);
   padding: 30px;
   margin: auto;
   margin-top: 100px;
@@ -44,4 +45,14 @@
   border: 1px solid #1f53c5;
   font-family: "calibri";
   font-size: 18px;
+}
+
+video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 105%;
+  min-height: 100%;
+  transform: translateX(calc((100% - 100vw) / 2));
+  z-index: -2;
 }
