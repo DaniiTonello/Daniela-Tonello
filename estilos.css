@@ -1,6 +1,7 @@
 .navegador {
   height: 65px;
   width: 100%;
+  background-color: rgba(127, 255, 212, 0.671);
 }
 
 .navegador .botonesDerechos {
@@ -21,6 +22,7 @@
   border-radius: 30px;
   border: 1px solid #ccc;
   overflow: hidden;
+  background-color: rgba(127, 255, 212, 0.315);
 }
 
 .header .fondo {
@@ -44,9 +46,13 @@
 }
 
 .header .detalle .nombre {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: aquamarine;
 }
 
 .header .detalle .descripcion {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
 }
 
 .cards-wrapper {
@@ -58,4 +64,15 @@
 .cards-wrapper .card {
   margin-bottom: 30px;
   border-radius: 30px;
+  background-color: rgba(127, 255, 212, 0.315);
+}
+
+video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 105%;
+  min-height: 100%;
+  transform: translateX(calc((100% - 100vw) / 2));
+  z-index: -2;
 }
