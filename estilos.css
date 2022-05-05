@@ -104,3 +104,9 @@
 .cards-wrapper .card .card-body {
   color: white;
 }
+
+.footer {
+  height: 65px;
+  width: 100%;
+  background-color: rgb(162, 209, 205);
+}
