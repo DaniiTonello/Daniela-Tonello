@@ -5,19 +5,19 @@
 @keyframes anim {
   0% {
     background-color: rgb(162, 231, 226);
-  } /*Amarillo*/
+  } /*Celeste*/
   25% {
     background-color: rgb(179, 170, 219);
-  } /*Naranja*/
+  } /*Lila*/
   50% {
     background-color: rgb(193, 159, 194);
-  } /*Negro*/
+  } /*Rosa*/
   75% {
     background-color: rgb(201, 136, 157);
-  } /*Otra vez naranja*/
+  } /*Rojo*/
   100% {
     background-color: rgb(87, 177, 171);
-  } /*Otra vez amarillo*/
+  } /*Verde*/
 }
 
 .navegador {
