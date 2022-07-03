@@ -1,0 +1,16 @@
+div {
+  background-color: black;
+  width: 100%;
+}
+
+app-redes-sociales {
+  float: right;
+  margin-top: 15px;
+}
+
+app-login {
+  float: right;
+  margin-top: 18px;
+  margin-right: 5px;
+  margin-left: 10px;
+}
