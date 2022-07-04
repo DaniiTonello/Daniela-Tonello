@@ -11,6 +11,14 @@ import { HeadingComponent } from './components/body/heading/heading.component';
 import { BodyComponent } from './components/body/body/body.component';
 import { BannerComponent } from './components/body/banner/banner.component';
 import { PerfilComponent } from './components/body/perfil/perfil.component';
+import { SeccionComponent } from './components/body/seccion/seccion.component';
+import { NombreComponent } from './components/body/nombre/nombre.component';
+import { AcercaDeComponent } from './components/body/acerca-de/acerca-de.component';
+import { EducacionComponent } from './components/body/educacion/educacion.component';
+import { ExperienciaComponent } from './components/body/experiencia/experiencia.component';
+import { SkillsComponent } from './components/body/skills/skills.component';
+import { ProyectosComponent } from './components/body/proyectos/proyectos.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +31,14 @@ import { PerfilComponent } from './components/body/perfil/perfil.component';
     BodyComponent,
     BannerComponent,
     PerfilComponent,
+    SeccionComponent,
+    NombreComponent,
+    AcercaDeComponent,
+    EducacionComponent,
+    ExperienciaComponent,
+    SkillsComponent,
+    ProyectosComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
