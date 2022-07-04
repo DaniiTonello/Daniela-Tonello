@@ -1,23 +1,15 @@
-.acercaDe {
-  margin-top: -100px;
-  text-align: right;
-  margin-right: 200px;
-  background-color: black;
+.contenedor {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  margin-bottom: 30px;
 }
 
-h3 {
+.card {
+  background-color: rgba(0, 0, 0, 0.493);
   color: white;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
-
-.descripcion {
-  text-align: right;
-  margin-right: 50px;
-  margin-top: 20px;
-}
-
-p {
-  color: white;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 21px;
 }
